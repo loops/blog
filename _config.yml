@@ -1,0 +1,41 @@
+title: Loop's Tech Tips
+email: sean@eztux.com
+description: >
+  You're not likely to find much of any practical value for yourself
+  here on this site.  It's meant mostly as a dumping ground for
+  random programming and configuration items.  If anything you read
+  here breaks something for you, you get to keep both halves.  Cheers!
+url: "http://loops.github.io"
+twitter_username: linux_or_bust
+github_username:  loops
+
+# Don't include these files when we build our site
+exclude: ['Gemfile.lock', 'Gemfile']
+
+# Select our desired Markdown processing engine
+markdown: kramdown
+
+# Configure the Kramdown engine to enable its Github features
+kramdown:
+  input: GFM
+
+# You could use the popular Redcarpet markdown engine instead
+# It has a few extensions to do things like convert plain URL's to links
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+
+# Octopress settings
+post_ext: md
+page_ext: html
+post_layout: theme:post
+page_layout: theme:page
+
+# Make sure these gems are loaded, when we produce our static site
+gems:
+  - octopress-genesis-theme
+  - octopress-solarized
+  - octopress-image-tag
+  - octopress-video-tag
+  - octopress-quote-tag
+  - octopress-codefence
+  - octopress-gist
