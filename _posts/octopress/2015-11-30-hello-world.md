@@ -4,9 +4,6 @@ title: "Hello World"
 date: 2015-11-30T12:11:54-08:00
 ---
 
-Octopress 3.0
-=============
-
 So I'm going to use these github pages as a place to stash random programming and
 configuration tips.  It's probably too ambitious to think it will turn
 out to be useful for myself, let alone anyone else.  Having said that, might as well
