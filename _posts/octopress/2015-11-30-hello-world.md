@@ -11,7 +11,8 @@ So I'm going to use these github pages as a place to stash random programming an
 configuration tips.  It's probably too ambitious to think it will turn
 out to be useful for myself, let alone anyone else.  Having said that, might as well
 document setting up this blog since many of the google results for using Octopress on
-Github are outdated.
+Github are outdated.  Although, there's lots of good information on their website
+<http://jekyllrb.com/docs/home/>.
 
 Initial Setup
 -------------
@@ -81,19 +82,16 @@ Configuration file: /home/sean/blog/_config.yml
 Committing to Git
 -----------------
 
+Once you're happy with this initial blog entry it's time to commit all your source files
+to Git and push them to Github.  This repository will only store the source files, not
+the generated content.  First create a repository named "blog" on Github, and then:
 
 ```bash title:"Commit to Git"
 $ git init
 $ git add .
 $ git commit -m "Initial Checkin"
-```
-
-
-Deploying
----------
-
-```bash title:"Deploy"
-$ octopress deploy
+$ git remote add origin git@github.com:loops/blog.git
+$ git push -u origin master
 ```
 
 Example Files

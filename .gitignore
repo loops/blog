@@ -3,3 +3,4 @@ _site
 .ink-cache
 .sass-cache
 .code-highlighter-cache
+.deploy

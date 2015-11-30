@@ -1,0 +1,4 @@
+method: git
+site_dir: _site
+git_url: git@github.com:loops/loops.github.io
+git_branch: master
