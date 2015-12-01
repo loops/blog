@@ -1,0 +1,20 @@
+$main-bg:              #f4f3ef;
+$page-border:          darken($main-bg, 6);
+
+$accent-color:         #e46767;
+
+$text-color:           #444;
+$medium-text-color:    #666;
+$light-text-color:     #888;
+$link-color:           $accent-color;
+
+$site-header-bg:       #007788;
+$site-title-color:     #ddd;
+$main-nav-color:       #fff;
+
+$mobile-nav-bg:        $main-bg;
+$mobile-nav-color:     #fff;
+$mobile-search-color:  #fff;
+$mobile-nav-border:    lighten($mobile-nav-bg, 5);
+
+$gray:                 #8d9297;
