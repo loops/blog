@@ -1,6 +1,9 @@
 ---
 layout: theme:post
 ---
+<head>
+	<title>{{ page.title }}</title>
+</head>
 
 {{ content }}
 
