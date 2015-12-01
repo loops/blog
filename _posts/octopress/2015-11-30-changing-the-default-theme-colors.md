@@ -1,5 +1,5 @@
 ---
-layout: theme:post
+layout: post
 title: "Changing the Default Theme Colors"
 date: 2015-11-30T17:11:15-08:00
 ---

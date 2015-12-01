@@ -1,5 +1,5 @@
 ---
-layout: theme:post
+layout: post
 title: "Deploy World"
 date: 2015-11-30T14:11:28-08:00
 ---

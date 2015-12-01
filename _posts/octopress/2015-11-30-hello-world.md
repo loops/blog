@@ -1,5 +1,5 @@
 ---
-layout: theme:post
+layout: post
 title: "Hello World"
 date: 2015-11-30T12:11:54-08:00
 ---
