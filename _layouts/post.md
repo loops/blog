@@ -1,12 +1,12 @@
 ---
 layout: theme:post
 ---
-<head>
-	<title>{{ page.title }}</title>
-</head>
+{% content_for head %}
+<title>{{ page.title }}</title>
+{% endcontent_for %}
 
 {{ content }}
 
-<footer class='entry-footer' role='contentinfo'> 
-	{% include disqus.html %}
-</footer>
+{% content_for footer %}
+{% include disqus.html %}
+{% endcontent_for %}
