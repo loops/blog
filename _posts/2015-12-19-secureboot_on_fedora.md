@@ -5,6 +5,13 @@ date: 2015-12-19T01:43:52-08:00
 categories: [fedora,secureboot]
 ---
 
+The following describes a setup for Secureboot when using the fedora_shim, and grub2
+boot loader.  This combination requires that each kernel be signed with a certificate.
+There are alternatives like the Linux Foundation PreLoader which doesn't require
+kernels to be signed, instead it just needs to be given a hash for each authorized
+boot kernel.  There are other setups where grub2 wouldn't be needed either, such as
+when using the [rEFInd boot manager](http://www.rodsbooks.com/refind/).
+
 To sign kernels that can be booted under UEFI Secureboot you first need a certificate.  
 This certificate is registered with the UEFI, and is also used by the pesign utility
 to bless each kernel image.
